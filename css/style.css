@@ -39,7 +39,7 @@ h1 {
 }
 
 .title span {
-    color: rgb(43, 146, 241);
+    color: rgba(0, 206, 209, 0.507);
 }
 
 .gallery {
@@ -51,10 +51,20 @@ h1 {
     margin: 20px 0px;
 }
 
-.lorem span {
+.lorem-description span {
     background-color: yellow;
 }
 
 ul {
     padding-left: 20px;
+}
+
+
+tr:nth-child(odd) {
+    background-color: rgba(0, 206, 209, 0.507);
+}
+
+.intestazione {
+    color: white;
+    background-color: rgb(43, 146, 241);
 }
