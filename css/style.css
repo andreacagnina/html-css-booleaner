@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Oswald", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -12,19 +12,49 @@ header {
     background-image: url(../img/pattern.png);
     background-size: 370px;
     padding-top: 50px;
-    padding-left: 10%;
+    padding-left: 25%;
 }
 
 header>img {
     width: 200px
 }
 
-main {
+main.container {
+    max-width: 1200px;
     margin-top: 30px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
-main>h1 {
+h1 {
+    font-weight: 900;
     font-size: 48px;
+}
+
+.title>p {
+    color: gray;
+    font-size: large;
+    font-weight: 400;
+}
+
+.title span {
+    color: rgb(43, 146, 241);
+}
+
+.gallery {
+    margin-top: 20px;
+    font-size: small;
+}
+
+.lorem-description {
+    margin: 20px 0px;
+}
+
+.lorem span {
+    background-color: yellow;
+}
+
+ul {
+    padding-left: 20px;
 }
