@@ -55,6 +55,15 @@ ul {
     padding-left: 20px;
 }
 
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#last-td-thead {
+    width: 60%;
+}
+
 
 tr:nth-child(odd) {
     background-color: rgba(0, 206, 209, 0.507);
