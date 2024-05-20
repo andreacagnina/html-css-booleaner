@@ -10,5 +10,21 @@ header {
     height: 100px;
     background-color: rgb(43, 146, 241);
     background-image: url(../img/pattern.png);
-    background-size: 15%;
+    background-size: 370px;
+    padding-top: 50px;
+    padding-left: 10%;
+}
+
+header>img {
+    width: 200px
+}
+
+main {
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+main>h1 {
+    font-size: 48px;
 }
