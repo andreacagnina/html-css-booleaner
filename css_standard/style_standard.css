@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    height: 100px;
+    background-color: rgb(43, 146, 241);
+    background-image: url(../img/pattern.png);
+    background-size: 370px;
+    padding-top: 50px;
+    padding-left: 150px;
+}
+
+header>img {
+    width: 200px
+}
+
+main#container,
+footer {
+    margin-top: 30px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+#title>p {
+    color: gray;
+    font-size: large;
+    font-weight: 400;
+}
+
+#title span {
+    color: rgba(0, 206, 209, 0.507);
+}
+
+#gallery {
+    margin-top: 20px;
+    font-size: small;
+}
+
+.lorem-description {
+    margin: 20px 0px;
+}
+
+.lorem-description span {
+    background-color: yellow;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+
+tr:nth-child(odd) {
+    background-color: rgba(0, 206, 209, 0.507);
+}
+
+.intestazione {
+    color: white;
+    background-color: rgb(43, 146, 241);
+}
+
+footer {
+    color: gray;
+}
+
+.square {
+    width: 300px;
+    height: 250px;
+    color: white;
+    font-size: 26px;
+    margin: 20px 0px 20px 0px;
+}
+
+.square.first {
+    background-image: url(/img/monitor.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.square.second {
+    background-image: url(/img/graph.jpg);
+    background-size: cover;
+    background-position: center;
+}
