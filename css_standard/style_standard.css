@@ -11,16 +11,17 @@ header {
     background-image: url(../img/pattern.png);
     background-size: 370px;
     padding-top: 50px;
-    padding-left: 150px;
+    padding-left: 5px;
+
 }
 
 header>img {
     width: 200px
 }
 
-main#container,
+main,
 footer {
-    margin-top: 30px;
+    margin: 30px 5px;
 }
 
 h1 {
@@ -60,18 +61,19 @@ table {
     width: 100%;
 }
 
-#last-td-thead {
+th:last-child {
     width: 60%;
 }
 
 
-tr:nth-child(odd) {
-    background-color: rgba(0, 206, 209, 0.507);
-}
-
-.intestazione {
+th {
+    text-align: left;
     color: white;
     background-color: rgb(43, 146, 241);
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(0, 206, 209, 0.507);
 }
 
 footer {
