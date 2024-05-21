@@ -5,10 +5,6 @@
     font-family: "Roboto", sans-serif;
 }
 
-body {
-    max-width: 1200px;
-    margin: auto;
-}
 
 header {
     height: 100px;
@@ -16,16 +12,17 @@ header {
     background-image: url(../img/pattern.png);
     background-size: 370px;
     padding-top: 50px;
-    padding-left: 150px;
+    padding-left: 285px;
 }
 
 header>img {
     width: 200px
 }
 
-main#container,
+main,
 footer {
-    margin-top: 30px;
+    max-width: 1200px;
+    margin: 30px auto;
 }
 
 h1 {
@@ -65,18 +62,20 @@ table {
     width: 100%;
 }
 
-#last-td-thead {
+th:last-child {
     width: 60%;
+}
+
+th {
+    text-align: left;
+    color: white;
+    background-color: rgb(43, 146, 241);
 }
 
 tr:nth-child(odd) {
     background-color: rgba(0, 206, 209, 0.507);
 }
 
-.intestazione {
-    color: white;
-    background-color: rgb(43, 146, 241);
-}
 
 footer {
     color: gray;
