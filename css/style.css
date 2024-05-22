@@ -5,14 +5,14 @@
     font-family: "Roboto", sans-serif;
 }
 
-
 header {
     height: 100px;
     background-color: rgb(43, 146, 241);
     background-image: url(../img/pattern.png);
     background-size: 370px;
     padding-top: 50px;
-    padding-left: 285px;
+    padding-left: 5px;
+
 }
 
 header>img {
@@ -21,8 +21,7 @@ header>img {
 
 main,
 footer {
-    max-width: 1200px;
-    margin: 30px auto;
+    margin: 30px 5px;
 }
 
 h1 {
@@ -66,6 +65,7 @@ th:last-child {
     width: 60%;
 }
 
+
 th {
     text-align: left;
     color: white;
@@ -75,7 +75,6 @@ th {
 tr:nth-child(odd) {
     background-color: rgba(0, 206, 209, 0.507);
 }
-
 
 footer {
     color: gray;
