@@ -24,31 +24,32 @@ footer {
     margin: 30px 5px;
 }
 
+div {
+    margin: 20px 0;
+}
+
+
 h1 {
     font-weight: 900;
     font-size: 48px;
 }
 
-#title>p {
-    color: gray;
-    font-size: large;
+h5 {
     font-weight: 400;
 }
 
-#title span {
+h1+h5 {
+    color: gray;
+    font-size: large;
+    font-weight: 400;
+
+}
+
+h5 span {
     color: rgba(0, 206, 209, 0.507);
 }
 
-#gallery {
-    margin-top: 20px;
-    font-size: small;
-}
-
-.lorem-description {
-    margin: 20px 0px;
-}
-
-.lorem-description span {
+p>span {
     background-color: yellow;
 }
 
@@ -80,7 +81,7 @@ footer {
     color: gray;
 }
 
-.square {
+footer div {
     width: 300px;
     height: 250px;
     color: white;
@@ -90,13 +91,13 @@ footer {
     padding: 20px;
 }
 
-.square.first {
+h3+div {
     background-image: url(../img/monitor.jpg);
     background-size: cover;
     background-position: center;
 }
 
-.square.second {
+#graph {
     background-image: url(../img/graph.jpg);
     background-size: cover;
     background-position: center;
